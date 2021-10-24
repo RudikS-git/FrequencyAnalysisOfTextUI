@@ -1,0 +1,8 @@
+.table {
+    width: 100%;
+}
+
+.table-wrapper {
+    max-height: 650px;
+    overflow: auto;
+}

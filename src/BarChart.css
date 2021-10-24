@@ -1,0 +1,26 @@
+.bar {
+    fill: #2e91e3;
+}
+
+.bar:hover {
+    fill: white;
+}
+
+.axis {
+    font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: white;
+    shape-rendering: crispEdges;
+}
+
+.x.axis path {
+    display: none;
+}
+
+.tick {
+    fill: white;
+}

@@ -1,0 +1,23 @@
+.statcontainer__root {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 150px);
+    place-items: center;
+}
+
+.statcontainer__item {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 50px;
+    background: #212529;
+    border-radius: 25px;
+    width: 400px;
+    color: white;
+    border: 1px solid #373b3e;
+}
+
+.statcontainer__item > * {
+    margin: auto;
+}

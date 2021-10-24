@@ -1,0 +1,39 @@
+.container {
+    width: 100%
+}
+
+.container > * {
+    margin-bottom: 18px;
+}
+
+.history__table {
+    width: 100%;
+}
+
+.btns__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.btn__back {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+
+.history {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    font-size: calc(10px + 2vmin);
+    color: #c1c1c1;
+    padding: 60px;
+    text-align: center;
+    max-height: 650px;
+    overflow: auto;
+}
